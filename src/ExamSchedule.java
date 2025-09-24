@@ -30,7 +30,7 @@ public class ExamSchedule {
             System.out.println("No exams available.");
         } else if (current.next == null) {
             System.out.println("You are already at the last exam.");
-            System.out.println("Next exam: " + current.examDetails);
+            System.out.println("This is the last exam: " + current.examDetails);
         } else {
             current = current.next;
             System.out.println("Next exam: " + current.examDetails);
